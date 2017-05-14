@@ -27,13 +27,6 @@ The goals / steps of this project are the following:
 [image7]: output_images/3.birds_eye_view_Output/test5_out.jpg	"Bird's eye view"
 [image8]: output_images/5.color_lanes_Output/test5_out.jpg	"colour view"
 
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
-
 ---
 
 ### Camera Calibration
@@ -52,6 +45,8 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 ![alt text][image2]
 
+All output images are in [cameraCalibrationOutput.](output_images/1.camera_cal_Output)
+
 ### Pipeline (single images)
 
 #### 1. Provide an example of a distortion-corrected image.
@@ -66,6 +61,9 @@ The code is in **7th** cell of [Advanced-Lane-Lines.ipynb](Advanced-Lane-Lines.i
 ![alt text][image3]
 
 ![alt text][image4]
+
+All output images are in [testImagesOutput.](output_images/2.test_images_Output)
+
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
@@ -91,6 +89,9 @@ Here's an example of my output for this step.
 
 ![alt text][image6]
 
+All output images are in [binaryThresholdOutput.](output_images/4.binary_thresholds_Output)
+
+
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
 The code for my perspective transform is in **9th code** cell in  [Advanced-Lane-Lines.ipynb](Advanced-Lane-Lines.ipynb), which includes a function called `birds_eye_view()` It takes as inputs an image (`img`) and hardcodes the source (`src`) and destination (`dst`) points.  
@@ -107,6 +108,9 @@ The code for my perspective transform is in **9th code** cell in  [Advanced-Lane
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
 ![alt text][image7]
+
+All output images are in [birdsEyeViewOutput.](output_images/3.birds_eye_view_Output)
+
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
@@ -126,6 +130,8 @@ With this, I was able to calculate the position of the vehicle w.r.t center with
 - Finally, the center distance was converted from pixels to meters by multiplying the number of pixels by 3.7/700.
 
 ![alt text][image8]
+
+All output images are in [colorLanesOutput.](output_images/5.color_lanes_Output)
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
