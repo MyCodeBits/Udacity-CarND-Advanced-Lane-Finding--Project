@@ -162,15 +162,13 @@ Shown in example above.
 - Output for : **project_video.mp4**
 
 
-[![Watch the video](output_images/project_video_output_sample_img.png )](output_videos/project_video_ouput.mp4)
+[![Watch the video](output_images/project_video_output_sample_img.png )](https://youtu.be/IXanFQSjAGU)
 
 - Output for : **challenge_video.mp4**
 
-[![Watch the video](output_images/challenge_video_ouput_sample_img.png )](output_videos/challenge_video_ouput.mp4)
+[![Watch the video](output_images/challenge_video_ouput_sample_img.png )](https://youtu.be/Axt0_GvmV7g)
 
-- Output for : **harder_challenge_video.mp4**
-
-[![Watch the video](output_images/harder_challenge_output_sample_img.png )](output_videos/harder_challenge_output.mp4)
+- Output for : **harder_challenge_video.mp4** is in [harder_challenge_output.mp4](output_videos/harder_challenge_output.mp4)
 
 ---
 
