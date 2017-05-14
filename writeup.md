@@ -163,8 +163,6 @@ Shown in example above.
 
 [![Watch the video](output_images/challenge_video_ouput_sample_img.png )](https://youtu.be/Axt0_GvmV7g)
 
-- Output for : **harder_challenge_video.mp4** is in [harder_challenge_output.mp4](output_videos/harder_challenge_output.mp4)
-
 ---
 
 ### Discussion
@@ -175,6 +173,6 @@ Shown in example above.
 
 - Code mostly did fine on the [challenge_result.mp4](https://youtu.be/Axt0_GvmV7g) video, with sometimes losing lane lines when heavy shadow was there.
 
-- Code failed miserably on the [harder_challenge_result.mp4](output_videos/harder_challenge_result.mp4). Here the code got exposed in mot being ready on steep curves, and shadows.
+- Code failed miserably on the [harder_challenge_video.mp4](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/harder_challenge_video.mp4). Here the code got exposed in mot being ready on steep curves, and shadows.
 
 In order to make it more robust, I guess I need to go back and revisit the binary channels selection and see if there is any other combination that can help and work fine in shadows and steep curves. Further reading on this topic may help in making the code robust for challenge videos.
