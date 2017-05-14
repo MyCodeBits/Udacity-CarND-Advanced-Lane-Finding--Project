@@ -171,10 +171,10 @@ Shown in example above.
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-- The pipeline developed this project did a real good job in detecting the lane lines for the  [project_video.mp4](project_video.mp4) video, which implied that the code worrks well for the known ideal conditions having distinct lane lines, and with not much shadows.
+- The pipeline developed this project did a real good job in detecting the lane lines for the  [project_video.mp4](https://youtu.be/IXanFQSjAGU) video, which implied that the code worrks well for the known ideal conditions having distinct lane lines, and with not much shadows.
 
-- Code mostly did fine on the [challenge_result.mp4](challenge_result.mp4) video, with sometimes losing lane lines when heavy shadow was there.
+- Code mostly did fine on the [challenge_result.mp4](https://youtu.be/Axt0_GvmV7g) video, with sometimes losing lane lines when heavy shadow was there.
 
-- Code failed miserably on the [harder_challenge_result.mp4](harder_challenge_result.mp4). Here the code got exposed in mot being ready on steep curves, and shadows.
+- Code failed miserably on the [harder_challenge_result.mp4](output_videos/harder_challenge_result.mp4). Here the code got exposed in mot being ready on steep curves, and shadows.
 
 In order to make it more robust, I guess I need to go back and revisit the binary channels selection and see if there is any other combination that can help and work fine in shadows and steep curves. Further reading on this topic may help in making the code robust for challenge videos.
